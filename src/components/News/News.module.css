@@ -1,0 +1,30 @@
+.main {
+    display: grid;
+    grid-template-areas: "creat nav"
+                         "cont nav";
+    grid-template-rows: 4fr, 4fr;
+    grid-template-columns: 4fr 1fr;
+}
+
+.navbar {
+    grid-area: nav;
+    border: 4px double black;
+}
+
+.content {
+    grid-area: cont;
+    padding: 20px;
+}
+
+.setfed {
+    grid-area: creat;
+    padding: 20px;
+}
+
+.post {
+    border: 2px double black;
+}
+
+.postimg {
+    width: 600px;
+}

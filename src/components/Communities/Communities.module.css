@@ -1,0 +1,9 @@
+.commWrapp {
+    border: double 2px blue;
+    width: 600px;
+}
+
+.commPhoto {
+    width: 80px;
+    height: 80px;
+}

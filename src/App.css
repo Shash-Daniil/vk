@@ -1,0 +1,22 @@
+.header_logo {
+  width: 50px;
+}
+
+.app-wrapper {
+  margin: 0 auto;
+  display: grid;
+  width: 1200px;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  grid-template-areas: 
+  "head head"
+  "nav cont";
+
+  grid-template-rows: 40px, 1fr;
+  grid-template-columns: 2fr 9fr;
+}
+
+.main-content-wrapper {
+    grid-area: cont;
+    background-color: darkgray;
+}

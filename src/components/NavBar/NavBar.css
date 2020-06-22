@@ -1,0 +1,10 @@
+.nav {
+    grid-area: nav;
+    background-color: darkcyan;
+    padding: 10px;
+  }
+
+.nav a {
+  color: gainsboro;
+  text-decoration: none;
+}
